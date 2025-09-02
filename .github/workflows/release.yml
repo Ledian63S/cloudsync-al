@@ -34,3 +34,21 @@ jobs:
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         run: vsce publish -p "$VSCE_TOKEN"
+
+      - name: Save VSIX filename
+        id: vsix
+        run: |
+          file=$(ls -1 *.vsix | tail -n 1)
+          echo "file=$file" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release and upload VSIX
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: |
+            See CHANGELOG.md for details.
+          files: |
+            ${{ steps.vsix.outputs.file }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
