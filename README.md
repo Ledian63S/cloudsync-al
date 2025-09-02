@@ -38,15 +38,17 @@
 
 ## ⚙️ Requirements
 
+Before using **CloudSync AL**, make sure you have:
+
 - [AL Language Extension](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)
-- PowerShell 7+ (`pwsh`)
+- [PowerShell 7+](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) (`pwsh`)
 - [BcContainerHelper](https://www.powershellgallery.com/packages/BcContainerHelper)
 
 ---
 
 ## 📄 License
 
-[MIT](https://github.com/Ledian63S/cloudsync-al/blob/main/LICENSE)
+[MIT](https://github.com/Ledian63S/cloudsync-al/blob/master/LICENSE.md)
 
 ---
 
