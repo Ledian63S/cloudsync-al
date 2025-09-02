@@ -55,7 +55,10 @@
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./"
+        "watch": "tsc -watch -p ./",
+        "release:patch": "npm version patch -m \"chore: release %s\" && git push && git push --tags",
+        "release:minor": "npm version minor -m \"chore: release %s\" && git push && git push --tags",
+        "release:major": "npm version major -m \"chore: release %s\" && git push && git push --tags"
     },
     "devDependencies": {
         "@types/vscode": "^1.85.0",
