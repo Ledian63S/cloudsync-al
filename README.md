@@ -4,7 +4,7 @@
 
 # CloudSync AL for Visual Studio Code
 
-[![release](https://img.shields.io/github/v/release/Ledian63S/cloudsync-al?display_name=tag&sort=semver&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://github.com/Ledian63S/cloudsync-al/releases/latest)
+[![release](https://img.shields.io/github/v/release/Ledian63S/cloudsync-al?display_name=tag&sort=semver&style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://github.com/Ledian63S/cloudsync-al/releases/latest)
 [![marketplace version](https://img.shields.io/visual-studio-marketplace/v/lekaledian.cloudsync-al?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=5BC0DE)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
 [![downloads](https://img.shields.io/visual-studio-marketplace/d/lekaledian.cloudsync-al?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=96E072)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
 [![rating](https://img.shields.io/visual-studio-marketplace/stars/lekaledian.cloudsync-al?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
