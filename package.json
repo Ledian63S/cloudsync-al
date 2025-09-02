@@ -1,0 +1,62 @@
+{
+    "name": "cloudsync-al",
+    "displayName": "CloudSync AL",
+    "description": "Build, bump version, and deploy AL apps to Business Central Online as PTE with clean terminal output.",
+    "version": "0.1.1",
+    "publisher": "lekaledian",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./out/extension.js",
+    "author": {
+        "name": "Ledian Leka",
+        "email": "leka.ledian@live.co.uk",
+        "url": "https://ledian63s.github.io/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ledian63S/cloudsync-al"
+    },
+    "bugs": {
+        "url": "https://github.com/Ledian63S/cloudsync-al/issues"
+    },
+    "homepage": "https://ledian63s.github.io/",
+    "icon": "images/icon.png",
+    "contributes": {
+        "commands": [
+            {
+                "command": "cloudsync.deploy",
+                "title": "CloudSync AL: Deploy PTE"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "CloudSync AL",
+            "properties": {
+                "pte.environment": {
+                    "type": "string",
+                    "default": "Sandbox",
+                    "description": "Fallback environment name if not present in launch configuration."
+                },
+                "pte.shell": {
+                    "type": "string",
+                    "default": "pwsh",
+                    "description": "Shell to run PowerShell (pwsh on macOS/Linux/Windows PowerShell 7)."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.85.0",
+        "@types/node": "18.x",
+        "typescript": "^5.0.0"
+    }
+}
