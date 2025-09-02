@@ -2,7 +2,7 @@
     "name": "cloudsync-al",
     "displayName": "CloudSync AL",
     "description": "Build, bump version, and deploy AL apps to Business Central Online as PTE with clean terminal output.",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "publisher": "lekaledian",
     "engines": {
         "vscode": "^1.85.0"
