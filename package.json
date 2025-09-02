@@ -56,13 +56,15 @@
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
         "release:patch": "git add . && git commit -m 'chore: prepare release' || echo 'no changes to commit' && npm version patch -m 'chore: release %s' && git push && git push --tags",
         "release:minor": "git add . && git commit -m 'chore: prepare release' || echo 'no changes to commit' && npm version minor -m 'chore: release %s' && git push && git push --tags",
         "release:major": "git add . && git commit -m 'chore: prepare release' || echo 'no changes to commit' && npm version major -m 'chore: release %s' && git push && git push --tags"
     },
     "devDependencies": {
-        "@types/vscode": "^1.85.0",
         "@types/node": "18.x",
+        "@types/vscode": "^1.85.0",
+        "conventional-changelog-cli": "^5.0.0",
         "typescript": "^5.0.0"
     }
 }
