@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VS Code build output
+out/
+*.vsix
+
+# AL cache
+.alpackages/
+.alcompiledapps/
+.snapshots/
+
+# OS files
+.DS_Store
+Thumbs.db

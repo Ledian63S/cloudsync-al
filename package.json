@@ -10,7 +10,6 @@
     "categories": [
         "Other"
     ],
-    "main": "./out/extension.js",
     "author": {
         "name": "Ledian Leka",
         "email": "leka.ledian@live.co.uk",
@@ -25,6 +24,10 @@
     },
     "homepage": "https://ledian63s.github.io/",
     "icon": "images/icon.png",
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onCommand:cloudsync.deploy"
+    ],
     "contributes": {
         "commands": [
             {
