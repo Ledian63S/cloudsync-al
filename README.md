@@ -8,7 +8,7 @@
 [![marketplace version](https://img.shields.io/visual-studio-marketplace/v/lekaledian.cloudsync-al?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=5BC0DE)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
 [![downloads](https://img.shields.io/visual-studio-marketplace/d/lekaledian.cloudsync-al?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=96E072)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
 [![rating](https://img.shields.io/visual-studio-marketplace/stars/lekaledian.cloudsync-al?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=lekaledian.cloudsync-al)
-[![license](https://img.shields.io/github/license/Ledian63S/cloudsync-al?style=for-the-badge&logo=open-source-initiative&logoColor=white&colorA=2b303b&colorB=8A2BE2)](https://github.com/Ledian63S/cloudsync-al/blob/main/LICENSE.md)
+[![license](https://img.shields.io/github/license/Ledian63S/cloudsync-al?style=for-the-badge&logo=open-source-initiative&logoColor=white&colorA=2b303b&colorB=8A2BE2)](https://github.com/Ledian63S/cloudsync-al/blob/main/LICENSE)
 </div>
 
 ---
