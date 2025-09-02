@@ -4,6 +4,10 @@ on:
   push:
     tags:
       - "v*.*.*"   # Trigger on version tags like v0.1.0
+  workflow_dispatch: {}  # optional: manual run button
+
+permissions:
+  contents: write   # needed to create GitHub Releases
 
 jobs:
   release:
@@ -19,7 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Install vsce
-        run: npm i -g @vscode/vsce
+        run: npm i -g @vscode/vsce@latest
 
       - name: Install dependencies
         run: npm ci || npm i
@@ -52,6 +56,3 @@ jobs:
             ${{ steps.vsix.outputs.file }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install vsce
-        run: npm i -g @vscode/vsce@latest
