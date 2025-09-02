@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install vsce
         run: npm i -g @vscode/vsce
@@ -52,3 +52,6 @@ jobs:
             ${{ steps.vsix.outputs.file }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install vsce
+        run: npm i -g @vscode/vsce@latest
